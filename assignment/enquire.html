@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="sytle.css">
+    <title>Enquire</title>
+</head>
+<body>
+    <nav>
+        <a href="index.html" class="logo">TravelX</a>
+        <div class="links">
+            <a href="index.html">Home</a>
+            <a href="contact.html">Contact</a>
+            <a href="product.html">Packages</a>
+            <a href="enquire.html">Enquire</a>
+            <a href="about.html">About us</a>
+        </div>
+        
+        <div class="login">
+            <button class="signup">Sign up</button>
+            <button>Login</button>
+        </div>
+    </nav>
+    <h1 align="center">Enquire</h1>
+    <p align="center">have any enquiries, feel free to contact us, during our business hours of cource</p>
+    <form method="post" align="center" enctype="multipart/form-data">
+   
+            <label for="name">Name:</label> 
+            <input type="text" id="name" name="name" required><br>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required><br>
+            <label for="enquiry">Enquiry:</label>
+            <textarea id="enquiry" name="enquiry"  cols="50" required></textarea><br>
+            <label for="service">Package(s) interested in:</label>
+            <input type="text" id="service" name="service"><br>
+            <label for="appointment">Preferred travel date/time:</label>
+            <input type="datetime-local" id="appointment" name="appointment"><br>
+            <label for="comments">Additional comments:</label>
+            <textarea id="comments" name="comments" ></textarea><br>
+            <button type="submit">Submit</button>
+        </div>
+    </form>
+    
+    <footer>
+        <p>&copy; 2024 TravelX Shop. All rights reserved.</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
